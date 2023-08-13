@@ -9,6 +9,7 @@
     font-size: 14px;
     font-family: "Montserrat", sans-serif;
     color:hsl(228, 12%, 48%)
+    min-height: 100vh
 }
 
 .h1{
@@ -21,8 +22,15 @@ main{
     display:flex;
     align-items: center;
     justify-content: center;
-
+    min-height: 100vh;
 }
+
+section{
+    background-color: hsl(0 ,0%, 100%);
+    display: flex;
+    flex-direction: row;
+}
+
 img{
     flex: 1 0 50%;
     object-fit: cover;
