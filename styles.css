@@ -21,5 +21,11 @@ main{
     display:flex;
     align-items: center;
     justify-content: center;
-    
+
+}
+img{
+    flex: 1 0 50%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
